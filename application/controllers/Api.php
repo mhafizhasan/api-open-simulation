@@ -11,7 +11,7 @@ class Api extends CI_Controller
 
 	public function login()
 	{
-		$email = $this->input->post('email');
+		$email = $this->input->post('username');
 		$password = $this->input->post('password');
 
 		$data = [
