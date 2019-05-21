@@ -14,14 +14,29 @@ class Api extends CI_Controller
 		$email = $this->input->post('username');
 		$password = $this->input->post('password');
 
-		$data = [
-			'success' => true,
-			'data' => [
-					'email' => $email,
-					'password' => $password
-				],
-			'token' => JWT::encode('abc123xyz', $this->config->item('jwt_key'))
-			];
+		if($email == 'abc@test.com' && $password == '123') {
+
+			$data = [
+				'success' => true,
+				'data' => [
+						'email' => $email,
+						'password' => $password
+					],
+				'token' => JWT::encode('abc123xyz', $this->config->item('jwt_key'))
+				];
+
+		} else {
+
+			$data = [
+				'success' => false,
+				'data' => [
+						'email' => $email,
+						'password' => $password
+					]
+				];
+		}
+
+
 
 		// echo json_encode(compact('data'));
 		echo json_encode($data);
