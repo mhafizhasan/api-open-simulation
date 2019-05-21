@@ -36,10 +36,17 @@ class Api extends CI_Controller
 				];
 		}
 
-
-
 		// echo json_encode(compact('data'));
 		echo json_encode($data);
+	}
+
+	public function logout()
+	{
+			$data = [
+				'success' => true
+				];
+
+			echo json_encode($data);
 	}
 
 	public function userList()
