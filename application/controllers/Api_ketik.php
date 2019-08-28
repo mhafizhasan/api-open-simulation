@@ -23,4 +23,17 @@ class Api_ketik extends CI_Controller
 		echo json_encode($data);
 	}
 
+	public function attendanceList()
+	{
+		$data = [
+			'status' => 'ok',
+			'data' => [
+				'username' => 'mentadak',
+				'token' => 'qwerty123456'
+			]
+		];
+
+		echo json_encode($data);
+	}
+
 }
