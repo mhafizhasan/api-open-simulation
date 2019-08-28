@@ -27,9 +27,25 @@ class Api_ketik extends CI_Controller
 	{
 		$data = [
 			'status' => 'ok',
-			'data' => [
-				'username' => 'mentadak',
-				'token' => 'qwerty123456'
+			'attendances' => [
+				[
+					'day' => 'Isnin',
+					'date' => '01-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Selasa',
+					'date' => '02-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Rabu',
+					'date' => '03-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				]
 			]
 		];
 
