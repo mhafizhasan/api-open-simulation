@@ -58,6 +58,132 @@ class Api_ketik extends CI_Controller
 						'date' => '03-01-2020',
 						'clockIn' => '08:15',
 						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Isnin',
+						'date' => '01-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Selasa',
+						'date' => '02-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Rabu',
+						'date' => '03-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Isnin',
+						'date' => '01-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Selasa',
+						'date' => '02-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Rabu',
+						'date' => '03-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Isnin',
+						'date' => '01-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Selasa',
+						'date' => '02-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Rabu',
+						'date' => '03-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Isnin',
+						'date' => '01-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Selasa',
+						'date' => '02-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Rabu',
+						'date' => '03-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Isnin',
+						'date' => '01-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Selasa',
+						'date' => '02-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Rabu',
+						'date' => '03-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Isnin',
+						'date' => '01-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Selasa',
+						'date' => '02-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Rabu',
+						'date' => '03-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Isnin',
+						'date' => '01-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Selasa',
+						'date' => '02-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
+					],
+					[
+						'day' => 'Rabu',
+						'date' => '03-01-2020',
+						'clockIn' => '08:15',
+						'clockOut' => '17.20'
 					]
 				]
 			];
