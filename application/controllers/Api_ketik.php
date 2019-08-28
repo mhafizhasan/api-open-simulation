@@ -23,171 +23,158 @@ class Api_ketik extends CI_Controller
 		echo json_encode($data);
 	}
 
-	public function attendanceList($x)
+	public function attendanceList($month, $year)
 	{
-		if($x == "1") {
-			$data = [
-				'status' => 'ok',
-				'attendances' => [
-					[
-						'day' => 'Isnin',
-						'date' => '01-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
+
+		$data = [
+			'status' => 'ok',
+			'attendances' => [
+				[
+					'day' => 'Isnin',
+					'date' => '01-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Selasa',
+					'date' => '02-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Rabu',
+					'date' => '03-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Isnin',
+					'date' => '01-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Selasa',
+					'date' => '02-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Rabu',
+					'date' => '03-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Isnin',
+					'date' => '01-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Selasa',
+					'date' => '02-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Rabu',
+					'date' => '03-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Isnin',
+					'date' => '01-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Selasa',
+					'date' => '02-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Rabu',
+					'date' => '03-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Isnin',
+					'date' => '01-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Selasa',
+					'date' => '02-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Rabu',
+					'date' => '03-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Isnin',
+					'date' => '01-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Selasa',
+					'date' => '02-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Rabu',
+					'date' => '03-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Isnin',
+					'date' => '01-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Selasa',
+					'date' => '02-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Rabu',
+					'date' => '03-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Isnin',
+					'date' => '01-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Selasa',
+					'date' => '02-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
+				],
+				[
+					'day' => 'Rabu',
+					'date' => '03-01-2020',
+					'clockIn' => '08:15',
+					'clockOut' => '17.20'
 				]
-			];
-		} else {
-			$data = [
-				'status' => 'ok',
-				'attendances' => [
-					[
-						'day' => 'Isnin',
-						'date' => '01-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Selasa',
-						'date' => '02-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Rabu',
-						'date' => '03-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Isnin',
-						'date' => '01-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Selasa',
-						'date' => '02-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Rabu',
-						'date' => '03-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Isnin',
-						'date' => '01-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Selasa',
-						'date' => '02-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Rabu',
-						'date' => '03-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Isnin',
-						'date' => '01-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Selasa',
-						'date' => '02-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Rabu',
-						'date' => '03-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Isnin',
-						'date' => '01-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Selasa',
-						'date' => '02-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Rabu',
-						'date' => '03-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Isnin',
-						'date' => '01-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Selasa',
-						'date' => '02-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Rabu',
-						'date' => '03-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Isnin',
-						'date' => '01-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Selasa',
-						'date' => '02-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Rabu',
-						'date' => '03-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Isnin',
-						'date' => '01-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Selasa',
-						'date' => '02-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					],
-					[
-						'day' => 'Rabu',
-						'date' => '03-01-2020',
-						'clockIn' => '08:15',
-						'clockOut' => '17.20'
-					]
-				]
-			];
-		}
+			]
+		];
 
 
 		echo json_encode($data);
